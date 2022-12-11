@@ -16,13 +16,13 @@
 #include "soc/rtc_cntl_reg.h"    // disable brownout problems
 #include "esp_http_server.h"
 #include <ESP32Servo.h>
-#include "ssid_stuff.h"
+
 
 unsigned long squirt_t;
 
 // Replace with your network credentials
-//const char* ssid = "REPLACE_WITH_YOUR_SSID";
-//const char* password = "REPLACE_WITH_YOUR_PASSWORD";
+const char* ssid = "REPLACE_WITH_YOUR_SSID";
+const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 
 #define PART_BOUNDARY "123456789000000000000987654321"
 
