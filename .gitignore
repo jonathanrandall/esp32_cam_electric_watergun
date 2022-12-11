@@ -1,4 +1,6 @@
 # Build and Release Folders
+
+*ssid*
 bin-debug/
 bin-release/
 [Oo]bj/
